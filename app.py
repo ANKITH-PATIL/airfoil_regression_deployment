@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 app=Flask(__name__)
-model=pickle.load(open("C:/Users/Ankith/airfoil_model.pkl",'rb'))
+model=pickle.load(open("airfoil_model.pkl",'rb'))
 
 @app.route('/')
 def home():
